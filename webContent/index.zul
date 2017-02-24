@@ -1,0 +1,27 @@
+<?page title="Auto Generated index.zul"?>
+<borderlayout apply="org.zkoss.bind.BindComposer" 
+				viewModel="@id('vm') @init('ec.ed.upse.tiendavirtual.controladores.Index')"
+				hflex="1" vflex="1">
+
+<north>
+		<vlayout hflex="1" vflex="1">
+			<vbox hflex="1" align="center">
+				<hbox height="150px">
+					<button label="Grabar"  onClick="@command('captureAudio')"></button>
+					<button label="Stop"  onClick="@command('stopAudio')"></button>
+					<button label="Traducir" onClick="@command('traducirAudio')"></button>
+				</hbox>
+			</vbox>
+		</vlayout>
+	</north>
+	<center autoscroll="true">
+		
+	</center>
+	<south hflex="1" vflex="min">
+		<vbox hflex="1" align="center">
+			<label>Sistema de control de proyectos GAD</label>
+			<label>Autor: Alvarito jajaja </label>
+		</vbox>
+	</south>
+
+</borderlayout>
